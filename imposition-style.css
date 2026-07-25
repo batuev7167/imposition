@@ -1,25 +1,4 @@
- @font-face {
-    font-family: 'Outfit';
-    src: url('fonts/Outfit-Thin.eot');
-    src: local('Outfit Thin'), local('Outfit-Thin'),
-        url('Outfit-Thin.eot?#iefix') format('embedded-opentype'),
-        url('Outfit-Thin.woff2') format('woff2'),
-        url('Outfit-Thin.woff') format('woff'),
-       url('fonts/OutfitThin.woff') format('woff'),
-       url('fonts/ OutfitThin.woff2') format('woff2'),
-       url('Outfit-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-
-
-
-
-
-
+ 
 *{
   margin:0;
   padding:0;  
