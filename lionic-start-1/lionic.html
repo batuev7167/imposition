@@ -7,13 +7,17 @@
     </title>
 </head>
 <body>
-    <header class="hiader">
-        <div class="cotener"></div>
+    <link rel="stylesheet" href="/lionic-start/css/Untitled-1.css">
+    <link rel="stylesheet" href="css/lionc.css">
+  
+  
+    <header class="hiader ">
+        <div class="container hider-container">
         <a href="#" class="header-logo" >
             <img src="img/lionic-logo.svg" class="hiader-logo" alt="logo">
         </a>
         <nav class="header-nav">
-                <ul class="header-list">
+                <ul class="header-list list-reset flex">
                     <li class="header-list-item"><a href="#Home" class="header-link"> Home</a></li>
                     <li class="header-list-item"><a href="#Services " class="header-link">Services</a></li>
                     <li class="header-list-item"><a href="#Articlis" class="header-link">Articlis</a></li>
@@ -25,9 +29,10 @@
             </ul>
         </nav>
           
-         <button class="btn header-btn  ">
-            free train
-         </button>
+         <button class="btn-reset btn-1 header-btn">
+  Free Trial
+</button>
+         </div>
 
 
     </header>
@@ -59,7 +64,7 @@
         
         </section>
 
-         <section id="Services" class="Services">
+         <section id="Services section-offset" class="Services">
             <div class="container">
                
                 <h2 class="section-title services-title">
@@ -68,13 +73,16 @@
                <p class="section-descrp services-descp">
                 Lionic guides you on&nbsp;making decisions for all aspects of&nbsp;your end-of-life plans.
                </p>
-               <ul class="services-items">
-                <li-services-items>
-               <img src="img/what-1.svg" alt="">
+               <ul class="services-items flex">
+                <li-services-items >
+                    <div class=""> 
+              
+                    <img src="img/what-1.svg"  class="img-1">
                     <h3 class="services-items-title">Your Legacy</h3>
                <p class="services-items-descrp">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
-                </li-services-items>
-                <li-services-items>
+                </div>
+            </li-services-items>
+                <li-services-items >
                   <img src="img/what-2.svg" alt="">
                     <h3 class="services-items-title">Your Health</h3>
                 <p class="services-items-descrp">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
@@ -96,13 +104,14 @@
          
         </section>
 
-         <section id="Articlis" class="Articlis">
+         <section id="Articlis" class="Articlis section-offset">
             <div class="container">
                 <h2 class="section-title articles-title">
                     Articles
                     </h2> 
-                    <ul class="articles-list">
+                    <ul class="articles-list flex">
                         <li class="articles-item">
+                            <div class="countainer-1">
                             <article class="blog-preview">
                                 <img src="img/Rectangle 18.svg" alt="" class="blog-preview-img">
                                 <div class="blog-preview-texst">
@@ -118,6 +127,8 @@
                                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
 
                                     </p>
+                                    </div>
+                               
                                 </div>
                             </article>
 
@@ -188,21 +199,24 @@
 
 
          </section>
- 
 
-         <section id="Clients" class="Clients">
+
+ 
+ 
+         
+         <section id="Clients section-offset" class="Clients">
          
         <h3 class="section-title clients-title">
             Clients
         </h3>
-        <ul class="clients-list">
-            <li class="clients-item">
+        <ul class="clients-list flex">
+            <li class="clients-item flex">
                     <p class="clients-item-descrp">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo doloribus exercitationem qui accusantium praesentium provident odio nihil amet nesciunt laboriosam, vitae consequatur necessitatibus sequi quas totam, vel accusamus? Inventore, quae.
                     </p>
 
 
-                        <div class="clients-user">
+                        <div class=" flex">
                             <div class="client-avatar">
                                 <img src="img/Group 43.svg" alt="John Armstrong">
                             </div>
@@ -216,7 +230,7 @@
 
                         <div class="clients-texst">
                             <div class="clients-name">
-                                "John Armstrong
+                                John Armstrong
                                 
 
                             </div>
@@ -226,12 +240,12 @@
                         </div>
 
             </li>
-            <li class="clients-item">
+            <li class="clients-item flex">
                 <p class="clients-item-descrp">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo doloribus exercitationem qui accusantium praesentium provident odio nihil amet nesciunt laboriosam, vitae consequatur necessitatibus sequi quas totam, vel accusamus? Inventore, quae.
                 </p>
 
-                    <div class="clients-user">
+                    <div class="clients-user flex">
                         <div class="client-avatar">
                             <img src="img/Group 43 (1).svg" alt="Elizabeth Martin">
                         </div>
@@ -245,13 +259,13 @@
                         </span>
                     </div>
             </li>
-            <li class="clients-item">
+            <li class="clients-item flex">
 
                 <p class="clients-item-descrp">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo doloribus exercitationem qui accusantium praesentium provident odio nihil amet nesciunt laboriosam, vitae consequatur necessitatibus sequi quas totam, vel accusamus? Inventore, quae.
                 </p>
 
-                    <div class="clients-user">
+                    <div class="clients-user flex">
                         <div class="client-avatar">
                             <img src="img/Group 72.svg" alt="Robin Soutby">
                         </div>
@@ -267,16 +281,17 @@
 
             
         </ul>
+        
         </section>
 
-         <section id="Contacts" class="Contacts">
+         <section id="Contacts section-offset" class="Contacts">
          <div class="container">
             <h2 class="section-title contacts-title">
                 Contacts
             </h2>
-            <address>
-                <ul class="contacts-list">
-                    <li class="contacts-item">
+            <address class="contacts-address">
+                <ul class="contacts-list flex">
+                    <li class="contacts-item ">
 
                             <strong class="contacts-item-caption">
                                 Visit Us
@@ -285,23 +300,25 @@
                                 Duis autem vel eum iriure dolor in hendrerit in vulputate velit.
                             </p>
                     </li>
-                    <li class="contacts-item">
+                    <li class="contacts-item  ">
 
-                            <strong class="contacts-item-caption">
+                            <strong class="contacts-item-caption  ">
                                 Call Us
                             </strong>
-                            <a href="tel:+79876543210" class="contacts-item-link">+7 (987) 654-32-10</a>
-                            <a href="tel:+71234567890" class="contacts-item-link">+7 (123) 456-78-90</a>
+                           
+                            <a href="tel:+79876543210" class="contacts-item-link flex">+7 (987) 654-32-10</a>
+                            <a href="tel:+71234567890" class="contacts-item-link flex">+7 (123) 456-78-90</a>
+                            
                     </li>
-                    <li class="contacts-item">
+                    <li class="contacts-item ">
                         <strong class="contacts-item-caption">
                             Email Us
 
                         </strong>
-                        <a href="mailto:example@example.com" class="contacts-item-link">example@example.com</a>
-                        <a href="mailto:support@example.com" class="contacts-item-link">support@example.com</a>
+                        <a href="mailto:example@example.com" class="contacts-item-link flex">example@example.com</a>
+                        <a href="mailto:support@example.com" class="contacts-item-link flex">support@example.com</a>
                     </li>
-                    <li class="contacts-item">
+                    <li class="contacts-item flex">
 
                             <strong class="contacts-item-caption">
 
@@ -315,13 +332,8 @@
 
          <section id="join-us" class="join-us">
          </section>
-
          
-
-    </main>
-
-    <footer class="footer">
-
-    </footer>
 </body>
 </html>
+  
+ 
