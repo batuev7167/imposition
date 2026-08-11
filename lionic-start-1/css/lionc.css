@@ -1,61 +1,70 @@
  html {
-box-sizing: border-box;
-
-
- }
- *,
- *::before,
- *::after {
-
-
-    box-sizing: inherit;
- }
- a {
-    color:inherit;
-    text-decoration: none;
- }
-
- img{
-    max-width: 100%;
- }
- body {
-    min-width: 1200px;
-    font-family:"font";
+  box-sizing: border-box;
 }
 
- 
- .container {
-width: 1200px;
-padding: 0px 12px;
-margin: 0 auto;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+} 
+img {
+    max-width: 100%;
+}
+body {
+    min-width: 1200px;
+    font-family: "font", sans-serif;
+}
 
- }
-
- .section-title {
-
-    margin: 0px;
-    margin-bottom: 40;
- }
- .section-descr {
+.list-reset {
     margin: 0;
-    margin-bottom: 50 px;
- }
+    padding: 0;
+    list-style: none;
+}
+.btn-reset{
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.flex {
+    display: flex;
+}
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.section-title {
+    margin: 0;
+    margin-bottom: 40px;
+}
+.section-descr {
+    margin: 0;
+    margin-bottom: 50px;
+}
+
 .section-offset {
 padding-top: 87px;
 padding-bottom: 160px;
 }
 
 .hider{
-
     padding: 36 0;
+    border-bottom: 1px solid #8d8383;
+    background-color: #ffffff;
 }
 .hiader-container {
     align-items: center;
 }
 .header-logo {
-
  
+
 }
+ 
   .list-reset {
     margin-left: 1000px;
     margin-top: -55px;
@@ -89,6 +98,9 @@ padding-bottom: 160px;
 .header-link {
   text-decoration: none;
   color: #000;
+  font-weight: 600;
+  color: #1c1c1c;
+  font-size: 15px;
 }
  
 .hider-nav{
@@ -103,23 +115,18 @@ padding-bottom: 160px;
   font-family: inherit;
 }
 
+.btn {
+  font-weight: 300;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 15px 35px;
+  background-color: blue;
+  border: 3px;
  
-.header-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 100px;
-  padding: 10px 20px;             
-  font-size: 14px;              
-  font-weight: 500;               
-  color: #2b788b;                 
-  
-  border: 1.5px solid #2b788b;     
-  border-radius: 6px;           
-  background-color: transparent;  
-  
-  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+ 
+
 
  
 .header-btn:hover {
