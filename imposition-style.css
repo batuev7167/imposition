@@ -1,176 +1,14 @@
- 
-*{
-  margin:0;
-  padding:0;  
-  box-sizing:border-box;
-}
-
-body{
-  background:#ffffff;
-  font-family:Arial,sans-serif;
-  color:#222;
-}
-
-.container{
-  width:760px;
-  margin:40px auto;
-}
-
-h1{
-  font-size:46px;
-  line-height:1.1;
-  margin-bottom:24px;
-  font-weight:700;
-}
-
-h1 span{
-  display:block;
-  font-weight:400;
-}
-
-.top-text{
-  color:#555;
-  margin-bottom:40px;
-  line-height:1.6;
-}
-
-.card{
-  display:flex;
-  justify-content:space-between;
-  background:#fff;
-  border-radius:14px;
-  overflow:hidden;
-  margin-bottom:40px;
-}
-
-.card-content{
-  padding:30px;
-}
-
-.card-content h2{
-  margin-bottom:20px;
-}
-
-.card-content ul li{
-  margin-bottom:12px;
-}
-
-.card-content a{
-  color:#4b32ff;
-}
-
-.card-image{
-  width:220px;
-  background:#4b32ff;
-  background-image:url(" https://avatars.mds.yandex.net/i?id=2a713590a5c17ce6f2cc340ffce0e41f_l-5234556-images-thumbs&n=13");
-
-}
-
-.section-title{
-  margin-bottom:20px;
-}
-
-p{
-  line-height:1.7;
-  margin-bottom:24px;
-}
-
-.blue-box{
-  background:#4b32ff;
-  color:#fff;
-  padding:28px;
-  border-radius:12px;
-  text-align:center;
-  font-weight:700;
-  margin-bottom:40px;
-}
-
-h3{
-  margin-bottom:20px;
-}
-
-.image{
-  height:220px;
-  border-radius:10px;
-  margin-bottom:40px;
-  background-size:cover;
-  
-}
-
-.demo1{
-
- 
-  background-image:url( "https://skillbox.ru/upload/setka_images/08591224052022_08fda0244b5397e030ee401fd2bea5b24f78a72b.jpg");
-}
-
-.demo2{
- 
-  background-image:url("  https://skillbox.ru/upload/setka_images/08584224052022_accf102caaa970ce65d217b9ae9a8e9a57caa67c.jpg");
-}
-
-.code{
-  background:#111;
-  color:#fff;
-  padding:30px;
-  border-radius:12px;
-  font-family:monospace;
-  line-height:1.8;
-  margin-bottom:50px;
-}
-
-.mini-card{
-  width:260px;
-  background:#fff;
-  border-radius:12px;
-  overflow:hidden;
-  margin-bottom:50px;
-}
-
-.mini-card img{
-  width:100%;
-  display:block;
-}
-
-.mini-content{
-  padding:20px;
-}
-
-.mini-content h4{
-  margin-bottom:12px;
-}
-
-.mini-content p{
-  margin-bottom:12px;
-}
-
-.footer-box{
-  display:flex;
-   justify-content:space-between;
-  align-items:center;
-  background:#fff;
-  border-radius:14px;
-  
-}
-
-.footer-box div:first-child{
-  padding:30px;
-}
-
-.footer-image{
-  width:220px;
-  height:180px;
-  background:#4b32ff;
-
-  
-  background-image:url(" https://avatars.mds.yandex.net/i?id=e22f15af1b643ac2799cd26df2e4f3b932f9c45c-7546197-images-thumbs&n=13");
-
-  background-size:cover;
-  background-position:center;
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   min-height: 4000px;
-  margin: 0;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+  color: #222;
 }
 
 .header {
@@ -178,4 +16,148 @@ body {
   padding: 30px 0;
   background-color: gray;
 }
- 
+
+.container {
+  width: 760px;
+  margin: 40px auto;
+}
+
+h1 {
+  font-size: 46px;
+  line-height: 1.1;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+h1 span {
+  display: block;
+  font-weight: 400;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.top-text {
+  color: #555;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.section-title {
+  margin-bottom: 20px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.card-content {
+  padding: 30px;
+}
+
+.card-content h2 {
+  margin-bottom: 20px;
+}
+
+.card-content ul li {
+  margin-bottom: 12px;
+}
+
+.card-content a {
+  color: #4b32ff;
+}
+
+.card-image {
+  width: 220px;
+  background: #4b32ff url("https://avatars.mds.yandex.net/i?id=2a713590a5c17ce6f2cc340ffce0e41f_l-5234556-images-thumbs&n=13") center / cover no-repeat;
+}
+
+.blue-box {
+  background: #4b32ff;
+  color: #fff;
+  padding: 28px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.image {
+  height: 220px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  background-size: cover;
+  background-position: center;
+}
+
+.demo1 {
+  background-image: url("https://skillbox.ru/upload/setka_images/08591224052022_08fda0244b5397e030ee401fd2bea5b24f78a72b.jpg");
+}
+
+.demo2 {
+  background-image: url("https://skillbox.ru/upload/setka_images/08584224052022_accf102caaa970ce65d217b9ae9a8e9a57caa67c.jpg");
+}
+
+.code {
+  background: #111;
+  color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  font-family: monospace;
+  line-height: 1.8;
+  margin-bottom: 50px;
+}
+
+.mini-card {
+  width: 260px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.mini-card img {
+  width: 100%;
+  display: block;
+}
+
+.mini-content {
+  padding: 20px;
+}
+
+.mini-content h4 {
+  margin-bottom: 12px;
+}
+
+.mini-content p {
+  margin-bottom: 12px;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-radius: 14px;
+}
+
+.footer-box div:first-child {
+  padding: 30px;
+}
+
+.footer-image {
+  width: 220px;
+  height: 180px;
+  background: #4b32ff url("https://avatars.mds.yandex.net/i?id=e22f15af1b643ac2799cd26df2e4f3b932f9c45c-7546197-images-thumbs&n=13") center / cover no-repeat;
+}
