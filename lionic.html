@@ -5,8 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lionic</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/lionc.css">
+  <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="/css/media.css">
+  
 </head>
 
 <body>
@@ -34,10 +42,11 @@
   <main class="main">
 
     <!-- HERO SECTION -->
-    <section id="hero" class="hero">
+    <div class="row">
+      <section id="hero" class="hero">
       <div class="container">
-        <div class="hero-content flex">
-          <h1 class="hero-title">
+        <div class="col-6 hero-content flex">
+          <h1 class="hero-title animate__animated animate__bounce " >
             This is simply a smarter way to make your legal online
           </h1>
           <p class="hero-descr">
@@ -50,6 +59,7 @@
         </div>
       </div>
     </section>
+    </div>
 
     <!-- SERVICES SECTION -->
     <section id="services" class="services section-offset">
